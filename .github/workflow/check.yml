@@ -1,0 +1,8 @@
+name: Check
+on: push
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tests_1
+        uses: actions/checkout
